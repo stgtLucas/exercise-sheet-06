@@ -1,0 +1,22 @@
+package de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.presence;
+
+import de.unistuttgart.iste.rss.oo.hamstersimulator.external.model.SimpleHamsterGame;
+
+
+/**
+ * This class is used to solve some easy tasks and to show how Artemis works.
+ */
+public class ArtemisPauleHamsterGame extends SimpleHamsterGame {
+
+	/**
+	 * Put the hamster code into this method.
+	 */
+	@Override
+	protected void run() {
+		this.loadTerritoryFromResourceFile("/territories/ArtemisPaule.ter");
+		this.displayInNewGameWindow();
+		game.startGame();
+
+		// insert your code here
+	}
+}
