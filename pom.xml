@@ -2,12 +2,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>de.unistuttgart.iste.rss.oo.hamstersimulator</groupId>
-	<artifactId>HamsterExerciseTemplate</artifactId>
-	<name>Hamster Simulator Root Project</name>
+	<artifactId>exercise-sheet-6</artifactId>
+	<name>exercise-sheet-6</name>
     <version>1.0.0</version>
 
 	<properties>
-		<hamster.version>2.5</hamster.version>
+		<hamster.version>3.0</hamster.version>
     </properties>
 
 	<repositories>
