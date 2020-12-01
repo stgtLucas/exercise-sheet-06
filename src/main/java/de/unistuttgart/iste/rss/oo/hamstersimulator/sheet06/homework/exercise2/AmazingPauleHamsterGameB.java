@@ -16,7 +16,7 @@ public class AmazingPauleHamsterGameB extends SimpleHamsterGame {
      * do not modify
      */
     public AmazingPauleHamsterGameB() {
-        this.loadTerritoryFromResourceFile("/territories/AmazingPauleTerritory.ter");
+        this.loadTerritoryFromResourceFile("/territories/AmazingPauleBTerritory.ter");
         this.displayInNewGameWindow();
         game.startGame();
     }

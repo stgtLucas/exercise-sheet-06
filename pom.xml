@@ -44,9 +44,32 @@
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>3.0.0</version>
-				<configuration>
-					<mainClass>de.unistuttgart.iste.rss.oo.hamstersimulator.exercise00.homework.TemplateHamsterGameApp</mainClass>
-				</configuration>
+				 <executions>
+                    <execution>
+                        <id>PainterPauleHamsterGameApp</id>
+						<configuration>
+								<mainClass>de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.homework.exercise1.PainterPauleHamsterGameApp</mainClass>
+						</configuration>
+					</execution>
+					<execution>
+                        <id>PainterPauleHamsterGameBApp</id>
+						<configuration>
+								<mainClass>de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.homework.exercise1.PainterPauleHamsterGameBApp</mainClass>
+						</configuration>
+					</execution>
+					<execution>
+                        <id>AmazingPauleHamsterGameApp</id>
+						<configuration>
+								<mainClass>de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.homework.exercise2.AmazingPauleHamsterGameApp</mainClass>
+						</configuration>
+					</execution>
+					<execution>
+                        <id>AmazingPauleHamsterGameBApp</id>
+						<configuration>
+								<mainClass>de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.homework.exercise2.AmazingPauleHamsterGameBApp</mainClass>
+						</configuration>
+					</execution>
+				</executions>
 			</plugin>
         </plugins>
     </build>
