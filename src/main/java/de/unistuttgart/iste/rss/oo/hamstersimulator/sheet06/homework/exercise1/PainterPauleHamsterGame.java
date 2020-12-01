@@ -12,14 +12,20 @@ import de.unistuttgart.iste.rss.oo.hamstersimulator.external.model.SimpleHamster
 public class PainterPauleHamsterGame extends SimpleHamsterGame {
     
     /**
+     * Creates a new PainterPauleHamsterGame
+     * do not modify
+     */
+    public PainterPauleHamsterGame() {
+        this.loadTerritoryFromResourceFile("/territories/PainterPauleTerritory.ter");
+        this.displayInNewGameWindow();
+        game.startGame();
+    }
+
+    /**
      * Put the hamster code into this method.
      */
     @Override
     protected void run() {
-        this.loadTerritoryFromResourceFile("/territories/PainterPauleTerritory.ter");
-        this.displayInNewGameWindow();
-        game.startGame();
-        
         //insert your code here
     }
 }

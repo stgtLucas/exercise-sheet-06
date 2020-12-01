@@ -10,6 +10,16 @@ import de.unistuttgart.iste.rss.oo.hamstersimulator.external.model.SimpleHamster
  * @version (eine Versionsnummer oder ein Datum)
  */
 public class PainterPauleHamsterGameB extends SimpleHamsterGame {
+
+    /**
+     * Creates a new PainterPauleHamsterGameB
+     * do not modify
+     */
+    public PainterPauleHamsterGameB() {
+        this.loadTerritoryFromResourceFile("/territories/PainterPauleBTerritory.ter");
+        this.displayInNewGameWindow();
+        game.startGame();
+    }
     
     /**
      * Put the hamster code into this method.
@@ -17,10 +27,6 @@ public class PainterPauleHamsterGameB extends SimpleHamsterGame {
      */
     @Override
     protected void run() {
-        this.loadTerritoryFromResourceFile("/territories/PainterPauleBTerritory.ter");
-        this.displayInNewGameWindow();
-        game.startGame();
-        
         //insert your code here
     }
 }

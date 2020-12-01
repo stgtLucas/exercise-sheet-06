@@ -10,16 +10,22 @@ import de.unistuttgart.iste.rss.oo.hamstersimulator.external.model.SimpleHamster
  * @version (eine Versionsnummer oder ein Datum)
  */
 public class AmazingPauleHamsterGameB extends SimpleHamsterGame {
+
+    /**
+     * Creats a new AmazingPauleHamsterGameB
+     * do not modify
+     */
+    public AmazingPauleHamsterGameB() {
+        this.loadTerritoryFromResourceFile("/territories/AmazingPauleTerritory.ter");
+        this.displayInNewGameWindow();
+        game.startGame();
+    }
     
     /**
      * Ignore this method. Put your code in passTheMaze()
      */
     @Override
     protected void run() {
-        this.loadTerritoryFromResourceFile("/territories/AmazingPauleTerritory.ter");
-        this.displayInNewGameWindow();
-        game.startGame();
-
         passTheMaze();
     }
     

@@ -9,14 +9,21 @@ import de.unistuttgart.iste.rss.oo.hamstersimulator.external.model.SimpleHamster
 public class ArtemisPauleHamsterGame extends SimpleHamsterGame {
 
 	/**
-	 * Put the hamster code into this method.
+	 * Creats a new ArtemisPauleHamsterGame
+	 * do not modify
 	 */
-	@Override
-	protected void run() {
+	public ArtemisPauleHamsterGame() {
 		this.loadTerritoryFromResourceFile("/territories/ArtemisPaule.ter");
 		this.displayInNewGameWindow();
 		game.startGame();
 
+	}
+
+	/**
+	 * Put the hamster code into this method.
+	 */
+	@Override
+	protected void run() {
 		// insert your code here
 	}
 }
