@@ -1,4 +1,4 @@
-package de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.presence;
+package de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.presence.exercise1;
 
 import de.unistuttgart.iste.rss.oo.hamstersimulator.external.model.SimpleHamsterGame;
 
