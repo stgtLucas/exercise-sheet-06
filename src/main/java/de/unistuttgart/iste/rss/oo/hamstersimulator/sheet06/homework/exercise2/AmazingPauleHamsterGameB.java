@@ -9,14 +9,14 @@ import de.unistuttgart.iste.rss.oo.hamstersimulator.external.model.SimpleHamster
  * @author (Ihr Name) 
  * @version (eine Versionsnummer oder ein Datum)
  */
-public class MazeRunnerPauleHamsterGame extends SimpleHamsterGame {
+public class AmazingPauleHamsterGameB extends SimpleHamsterGame {
 
     /**
      * Creats a new AmazingPauleHamsterGameB
      * do not modify
      */
-    public MazeRunnerPauleHamsterGame() {
-        this.loadTerritoryFromResourceFile("/territories/MazeRunnerPauleTerritory.ter");
+    public AmazingPauleHamsterGameB() {
+        this.loadTerritoryFromResourceFile("/territories/AmazingPauleBTerritory.ter");
         this.displayInNewGameWindow();
         game.startGame();
     }
