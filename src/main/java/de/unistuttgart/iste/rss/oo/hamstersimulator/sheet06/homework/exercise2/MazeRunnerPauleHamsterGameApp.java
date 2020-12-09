@@ -1,8 +1,8 @@
 package de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.homework.exercise2;
 
-public class AmazingPauleHamsterGameBApp {
+public class MazeRunnerPauleHamsterGameApp {
     public static void main(String[] args) {
-        final AmazingPauleHamsterGameB game = new AmazingPauleHamsterGameB();
+        final MazeRunnerPauleHamsterGame game = new MazeRunnerPauleHamsterGame();
         game.doRun();
     }
 }
