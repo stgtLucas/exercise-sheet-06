@@ -1,5 +1,5 @@
 open module exercise {
-    requires rss.hamster.main;
+    requires de.hamstersimulator.objectsfirst.main;
     exports de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.homework.exercise1;
     exports de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.homework.exercise2;
     exports de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.presence.exercise1;
