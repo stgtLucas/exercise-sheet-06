@@ -1,67 +1,67 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>de.unistuttgart.iste.rss.oo.hamstersimulator</groupId>
 	<artifactId>exercise-sheet-6</artifactId>
 	<name>exercise-sheet-6</name>
-    <version>1.0.0</version>
+	<version>1.0.0</version>
 
 	<properties>
-		<hamster.version>4.0.0</hamster.version>
-    </properties>
-
-	
+		<hamster.version>4.1.1</hamster.version>
+	</properties>
 
 	<dependencies>
 		<dependency>
-            <groupId>de.hamstersimulator.objectsfirst</groupId>
-            <artifactId>main</artifactId>
-            <version>${hamster.version}</version>
-        </dependency>
+			<groupId>de.hamstersimulator.objectsfirst</groupId>
+			<artifactId>main</artifactId>
+			<version>${hamster.version}</version>
+		</dependency>
 	</dependencies>
 
 	<build>
-        <plugins>
-            <plugin>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
 				<configuration>
 					<release>16</release>
 					<source>16</source>
 					<target>16</target>
 				</configuration>
-            </plugin>
+			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>3.0.0</version>
-				 <executions>
-                    <execution>
-                        <id>PainterPauleHamsterGameApp</id>
+				<executions>
+					<execution>
+						<id>PainterPauleHamsterGameApp</id>
 						<configuration>
-								<mainClass>de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.homework.exercise1.PainterPauleHamsterGameApp</mainClass>
+							<mainClass>de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.homework.exercise1.PainterPauleHamsterGameApp</mainClass>
 						</configuration>
 					</execution>
 					<execution>
-                        <id>PainterPauleHamsterGameBApp</id>
+						<id>PainterPauleHamsterGameBApp</id>
 						<configuration>
-								<mainClass>de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.homework.exercise1.PainterPauleHamsterGameBApp</mainClass>
+							<mainClass>de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.homework.exercise1.PainterPauleHamsterGameBApp</mainClass>
 						</configuration>
 					</execution>
 					<execution>
-                        <id>AmazingPauleHamsterGameApp</id>
+						<id>AmazingPauleHamsterGameApp</id>
 						<configuration>
-								<mainClass>de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.homework.exercise2.AmazingPauleHamsterGameApp</mainClass>
+							<mainClass>de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.homework.exercise2.AmazingPauleHamsterGameApp</mainClass>
 						</configuration>
 					</execution>
 					<execution>
-                        <id>AmazingPauleHamsterGameBApp</id>
+						<id>AmazingPauleHamsterGameBApp</id>
 						<configuration>
-								<mainClass>de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.homework.exercise2.AmazingPauleHamsterGameBApp</mainClass>
+							<mainClass>de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.homework.exercise2.AmazingPauleHamsterGameBApp</mainClass>
 						</configuration>
 					</execution>
 				</executions>
 			</plugin>
-        </plugins>
-    </build>
+		</plugins>
+	</build>
 </project>

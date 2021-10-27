@@ -2,15 +2,14 @@ package de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.presence.exercise1;
 
 import de.hamstersimulator.objectsfirst.external.model.SimpleHamsterGame;
 
-
 /**
  * This class is used to solve some easy tasks and to show how Artemis works.
  */
 public class ArtemisPauleHamsterGame extends SimpleHamsterGame {
 
 	/**
-	 * Creats a new ArtemisPauleHamsterGame
-	 * do not modify
+	 * Creates a new ArtemisPauleHamsterGame.<br>
+	 * Do not modify!
 	 */
 	public ArtemisPauleHamsterGame() {
 		this.loadTerritoryFromResourceFile("/territories/ArtemisPaule.ter");
