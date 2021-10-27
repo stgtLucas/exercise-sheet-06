@@ -6,15 +6,15 @@ public class PrimitiveTypes {
 
 		byte maximumOfByte = 127;
 
-		int tenAsInteger = 10;
-		int fourAsInteger = 4;
-		double fourAsDouble = 4;
+		int		tenAsInteger	= 10;
+		int		fourAsInteger	= 4;
+		double	fourAsDouble	= 4;
 
-		double rootOfTwo = Math.sqrt(2);
-		double zero = (rootOfTwo * rootOfTwo) - 2;
+		double	rootOfTwo	= Math.sqrt(2);
+		double	zero		= (rootOfTwo * rootOfTwo) - 2;
 
-		char characterA = 'a';
-		char characterB = 'b';
+		char	characterA	= 'a';
+		char	characterB	= 'b';
 
 		System.out.println(maximumOfByte + 1);
 		maximumOfByte++;
@@ -25,5 +25,4 @@ public class PrimitiveTypes {
 		System.out.println(characterB - characterA);
 
 	}
-
 }
