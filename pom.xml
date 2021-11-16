@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>de.unistuttgart.iste.rss.oo.hamstersimulator</groupId>
+	<groupId>de.unistuttgart.iste.sqa.pse</groupId>
 	<artifactId>exercise-sheet-6</artifactId>
 	<name>exercise-sheet-6</name>
 	<version>1.0.0</version>
@@ -39,25 +39,25 @@
 					<execution>
 						<id>PainterPauleHamsterGameApp</id>
 						<configuration>
-							<mainClass>de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.homework.exercise1.PainterPauleHamsterGameApp</mainClass>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet06.homework.exercise1.PainterPauleHamsterGameApp</mainClass>
 						</configuration>
 					</execution>
 					<execution>
 						<id>PainterPauleHamsterGameBApp</id>
 						<configuration>
-							<mainClass>de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.homework.exercise1.PainterPauleHamsterGameBApp</mainClass>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet06.homework.exercise1.PainterPauleHamsterGameBApp</mainClass>
 						</configuration>
 					</execution>
 					<execution>
 						<id>AmazingPauleHamsterGameApp</id>
 						<configuration>
-							<mainClass>de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.homework.exercise2.AmazingPauleHamsterGameApp</mainClass>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet06.homework.exercise2.AmazingPauleHamsterGameApp</mainClass>
 						</configuration>
 					</execution>
 					<execution>
 						<id>AmazingPauleHamsterGameBApp</id>
 						<configuration>
-							<mainClass>de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.homework.exercise2.AmazingPauleHamsterGameBApp</mainClass>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet06.homework.exercise2.AmazingPauleHamsterGameBApp</mainClass>
 						</configuration>
 					</execution>
 				</executions>
