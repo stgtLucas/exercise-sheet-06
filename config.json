@@ -1,9 +1,9 @@
 {
     "exercises": [
-        "exercise/de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.homework.exercise1.PainterPauleHamsterGameApp",
-        "exercise/de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.homework.exercise1.PainterPauleHamsterGameBApp",
-        "exercise/de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.homework.exercise2.AmazingPauleHamsterGameApp",
-        "exercise/de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.homework.exercise2.AmazingPauleHamsterGameBApp",
-        "exercise/de.unistuttgart.iste.rss.oo.hamstersimulator.sheet06.presence.exercise1.ArtemisPauleHamsterGameApp"
+        "exercise/de.unistuttgart.iste.sqa.pse.sheet06.homework.exercise1.PainterPauleHamsterGameApp",
+        "exercise/de.unistuttgart.iste.sqa.pse.sheet06.homework.exercise1.PainterPauleHamsterGameBApp",
+        "exercise/de.unistuttgart.iste.sqa.pse.sheet06.homework.exercise2.AmazingPauleHamsterGameApp",
+        "exercise/de.unistuttgart.iste.sqa.pse.sheet06.homework.exercise2.AmazingPauleHamsterGameBApp",
+        "exercise/de.unistuttgart.iste.sqa.pse.sheet06.presence.exercise1.ArtemisPauleHamsterGameApp"
     ]
 }
