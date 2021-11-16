@@ -1,6 +1,6 @@
 package de.unistuttgart.iste.sqa.pse.sheet06.presence.exercise1;
 
-import de.hamstersimulator.objectsfirst.external.model.SimpleHamsterGame;
+import de.hamstersimulator.objectsfirst.external.simple.game.SimpleHamsterGame;
 
 /**
  * This class is used to solve some easy tasks and to show how Artemis works.
