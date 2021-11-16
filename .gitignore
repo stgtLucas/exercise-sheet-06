@@ -43,7 +43,7 @@ hs_err_pid*
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
-
+.idea/
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
 # since they will be recreated, and may cause churn.  Uncomment if using
@@ -96,6 +96,9 @@ local.properties
 # External tool builders
 .externalToolBuilders/
 
+# Locally stored "Eclipse launch configurations"
+*.launch
+
 # PyDev specific (Python IDE for Eclipse)
 *.pydevproject
 
@@ -140,7 +143,7 @@ local.properties
 .project
 .classpath
 
-.vscode/
+
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
