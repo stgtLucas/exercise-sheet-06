@@ -140,7 +140,7 @@ local.properties
 .project
 .classpath
 
-
+.vscode/
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
