@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>de.unistuttgart.iste.sqa.pse</groupId>
-	<artifactId>exercise-sheet-6</artifactId>
-	<name>exercise-sheet-6</name>
+	<artifactId>exercise-sheet-06</artifactId>
+	<name>exercise-sheet-06</name>
 	<version>1.0.0</version>
 
 	<properties>
-		<hamster.version>4.2.0</hamster.version>
+		<hamster.version>4.3.0</hamster.version>
 	</properties>
 
 	<dependencies>
