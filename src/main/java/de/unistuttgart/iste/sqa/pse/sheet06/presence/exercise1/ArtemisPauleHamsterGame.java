@@ -19,10 +19,30 @@ public class ArtemisPauleHamsterGame extends SimpleHamsterGame {
 	}
 
 	/**
-	 * Put the hamster code into this method.
+	 * Clean every odd field and put Paule in position for the next exercise.
 	 */
+	private void cleanFirstRow() {
+		// insert your code for a) here
+	}
+
+	/**
+	 * Clean each even field and put Paule in position for the next exercise.
+	 */
+	private void cleanSecondRow() {
+		// insert your code for b) here
+	}
+
+	/**
+	 * Clean each field and place all seeds in the last field.
+	 */
+	private void cleanThirdRow() {
+		// insert your code for c) here
+	}
+
 	@Override
 	protected void run() {
-		// insert your code here
+		cleanFirstRow();
+		cleanSecondRow();
+		cleanThirdRow();
 	}
 }
