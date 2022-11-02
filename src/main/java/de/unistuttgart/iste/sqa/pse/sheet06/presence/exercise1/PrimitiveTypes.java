@@ -23,6 +23,5 @@ public class PrimitiveTypes {
 		System.out.println(tenAsInteger / fourAsDouble);
 		System.out.println(zero);
 		System.out.println(characterB - characterA);
-
 	}
 }

@@ -15,7 +15,6 @@ public class ArtemisPauleHamsterGame extends SimpleHamsterGame {
 		this.loadTerritoryFromResourceFile("/territories/ArtemisPaule.ter");
 		this.displayInNewGameWindow();
 		game.startGame();
-
 	}
 
 	@Override
