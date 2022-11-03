@@ -62,6 +62,12 @@
 							<mainClass>de.unistuttgart.iste.sqa.pse.sheet06.homework.exercise2.AmazingPauleHamsterGameBApp</mainClass>
 						</configuration>
 					</execution>
+					<execution>
+						<id>ArtemisPauleHamsterGameApp</id>
+						<configuration>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet06.presence.exercise1.ArtemisPauleHamsterGameApp</mainClass>
+						</configuration>
+					</execution>
 				</executions>
 			</plugin>
 			<plugin>
