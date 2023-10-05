@@ -1,4 +1,4 @@
-package de.unistuttgart.iste.sqa.pse.sheet06.homework.exercise2;
+package de.unistuttgart.iste.sqa.pse.sheet06.homework.exercise1;
 
 import de.hamstersimulator.objectsfirst.external.simple.game.SimpleHamsterGame;
 
@@ -8,14 +8,14 @@ import de.hamstersimulator.objectsfirst.external.simple.game.SimpleHamsterGame;
  * @author (Your name)
  * @version (a version number or a date)
  */
-public class AmazingPauleHamsterGameB extends SimpleHamsterGame {
+public class AmazingPauleHamsterGame extends SimpleHamsterGame {
 
 	/**
-	 * Creates a new AmazingPauleHamsterGameB.<br>
+	 * Creates a new AmazingPauleHamsterGame.<br>
 	 * Do not modify!
 	 */
-	public AmazingPauleHamsterGameB() {
-		this.loadTerritoryFromResourceFile("/territories/AmazingPauleBTerritory.ter");
+	public AmazingPauleHamsterGame() {
+		this.loadTerritoryFromResourceFile("/territories/AmazingPauleTerritory.ter");
 		this.displayInNewGameWindow();
 		game.startGame();
 	}
@@ -30,6 +30,6 @@ public class AmazingPauleHamsterGameB extends SimpleHamsterGame {
 	}
 
 	void passTheMaze() {
-		// insert your code here
+		// solve the maze here
 	}
 }

@@ -1,9 +1,9 @@
 package de.unistuttgart.iste.sqa.pse.sheet06.homework.exercise1;
 
-public class PainterPauleHamsterGameBApp {
+public class AmazingPauleHamsterGameApp {
 
 	public static void main(final String[] args) {
-		final PainterPauleHamsterGameB game = new PainterPauleHamsterGameB();
+		final AmazingPauleHamsterGame game = new AmazingPauleHamsterGame();
 		game.doRun();
 	}
 }
