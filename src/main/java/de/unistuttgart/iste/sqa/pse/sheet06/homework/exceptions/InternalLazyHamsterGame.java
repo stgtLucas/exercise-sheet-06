@@ -7,7 +7,10 @@ public abstract class InternalLazyHamsterGame extends SimpleHamsterGame {
 	 * This constructor is used for loading a territory for the game and for displaying it.
 	 */
 	InternalLazyHamsterGame() {
-		this.loadTerritoryFromResourceFile("/territories/territory.ter");
+		// use this territory, to run on normal territory
+		//this.loadTerritoryFromResourceFile("/territories/Territory.ter");
+		// use this territory to run on claustrophobic territory 
+		this.loadTerritoryFromResourceFile("/territories/NoWayToGoTerritory.ter");
 		this.displayInNewGameWindow();
 	}
 
