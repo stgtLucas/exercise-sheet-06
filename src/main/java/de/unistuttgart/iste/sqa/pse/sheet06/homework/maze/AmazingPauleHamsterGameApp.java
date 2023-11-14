@@ -1,4 +1,4 @@
-package de.unistuttgart.iste.sqa.pse.sheet06.homework.exercise1;
+package de.unistuttgart.iste.sqa.pse.sheet06.homework.maze;
 
 public class AmazingPauleHamsterGameApp {
 

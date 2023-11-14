@@ -1,4 +1,4 @@
-package de.unistuttgart.iste.sqa.pse.sheet06.homework.exercise2;
+package de.unistuttgart.iste.sqa.pse.sheet06.homework.exceptions;
 
 import de.hamstersimulator.objectsfirst.external.simple.game.SimpleHamsterGame;
 
