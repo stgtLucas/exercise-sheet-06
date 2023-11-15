@@ -8,9 +8,9 @@ public abstract class InternalLazyHamsterGame extends SimpleHamsterGame {
 	 */
 	InternalLazyHamsterGame() {
 		// use this territory, to run on normal territory
-		//this.loadTerritoryFromResourceFile("/territories/Territory.ter");
+		this.loadTerritoryFromResourceFile("/territories/Territory.ter");
 		// use this territory to run on claustrophobic territory 
-		this.loadTerritoryFromResourceFile("/territories/NoWayToGoTerritory.ter");
+		//this.loadTerritoryFromResourceFile("/territories/NoWayToGoTerritory.ter");
 		this.displayInNewGameWindow();
 	}
 
