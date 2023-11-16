@@ -1,17 +1,29 @@
 package de.unistuttgart.iste.sqa.pse.sheet06.homework.exceptions;
 
+import de.hamstersimulator.objectsfirst.external.simple.game.SimpleHamsterGame;
+
 /**
  * A SimpleHamsterGame with exceptions
  * 
  * @author (your name)
  */
-public class LazyHamsterGame extends InternalLazyHamsterGame {
+public class LazyHamsterGame extends SimpleHamsterGame {
 
 	/**
-	 * Put the hamster code for running the game into this method.
+	 * This constructor is used for loading a territory for the game and for displaying it.
+	 * Do not modify.
+	 */
+	public LazyHamsterGame(final String territoryFile) {
+		this.loadTerritoryFromResourceFile(territoryFile);
+		this.displayInNewGameWindow();
+		game.startGame();
+	}
+	
+	/**
+	 * Do not modify this operation.
 	 */
 	@Override
-	protected void hamsterRun() {
+	protected void run() {
 		moveMultipleSteps(5);
 	}
 

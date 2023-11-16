@@ -39,33 +39,21 @@
 				<version>3.1.0</version>
 				<executions>
 					<execution>
-						<id>PainterPauleHamsterGameApp</id>
+						<id>LazyHamsterGameApp</id>
 						<configuration>
-							<mainClass>de.unistuttgart.iste.sqa.pse.sheet06.homework.exercise1.PainterPauleHamsterGameApp</mainClass>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet06.homework.exceptions.LazyHamsterGameApp</mainClass>
 						</configuration>
 					</execution>
 					<execution>
-						<id>PainterPauleHamsterGameBApp</id>
+						<id>CagedHamsterGameApp</id>
 						<configuration>
-							<mainClass>de.unistuttgart.iste.sqa.pse.sheet06.homework.exercise1.PainterPauleHamsterGameBApp</mainClass>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet06.homework.exceptions.CagedHamsterGameApp</mainClass>
 						</configuration>
 					</execution>
 					<execution>
 						<id>AmazingPauleHamsterGameApp</id>
 						<configuration>
-							<mainClass>de.unistuttgart.iste.sqa.pse.sheet06.homework.exercise2.AmazingPauleHamsterGameApp</mainClass>
-						</configuration>
-					</execution>
-					<execution>
-						<id>AmazingPauleHamsterGameBApp</id>
-						<configuration>
-							<mainClass>de.unistuttgart.iste.sqa.pse.sheet06.homework.exercise2.AmazingPauleHamsterGameBApp</mainClass>
-						</configuration>
-					</execution>
-					<execution>
-						<id>ArtemisPauleHamsterGameApp</id>
-						<configuration>
-							<mainClass>de.unistuttgart.iste.sqa.pse.sheet06.presence.exercise1.ArtemisPauleHamsterGameApp</mainClass>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet06.homework.maze.AmazingPauleHamsterGameApp</mainClass>
 						</configuration>
 					</execution>
 				</executions>

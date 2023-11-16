@@ -12,11 +12,9 @@ You should solve the exercises in the specific classes and you can run the class
 To install Java, set up your IDE and clone the repository into your workspace, please follow the instructions in exercise sheet `01`, Part `0 - Preparation`.
 This sheet contains multiple main classes, depending on the task. Available main classes are
 
-- ArtemisPauleHamsterGameApp
-- PainterPauleHamsterGameApp
-- PainterPauleHamsterGameBApp
+- CagedHamsterGameApp
+- LazyHamsterGameApp
 - AmazingPauleHamsterGameApp
-- AmazingPauleHamsterGameBApp
 
 ### Run the project in Eclipse
 - First, make sure again to have the correct Java version set in your project: Go to `Eclipse` > `Preferences` > `Java` > `Compiler` and set the `Compiler compliance level` to `17` (or higher).
@@ -37,19 +35,14 @@ This sheet contains multiple main classes, depending on the task. Available main
   ```sh
   mvn clean compile exec:java@$MAIN_CLASS
   ```
+   
   so, for example:
   ```sh
-  mvn clean compile exec:java@ArtemisPauleHamsterGameApp
+  mvn clean compile exec:java@CagedHamsterGameApp
   ```
   ```sh
-  mvn clean compile exec:java@PainterPauleHamsterGameApp
-  ```
-  ```sh
-  mvn clean compile exec:java@PainterPauleHamsterGameBApp
+  mvn clean compile exec:java@LazyHamsterGameApp
   ```
   ```sh
   mvn clean compile exec:java@AmazingPauleHamsterGameApp
-  ```
-  ```sh
-  mvn clean compile exec:java@AmazingPauleHamsterGameBApp
   ```
