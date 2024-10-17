@@ -1,4 +1,4 @@
-package de.unistuttgart.iste.sqa.pse.sheet06.presence;
+package de.unistuttgart.iste.sqa.pse.sheet06.presence.primitives;
 
 public class PrimitiveTypes {
 
