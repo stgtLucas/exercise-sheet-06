@@ -39,21 +39,33 @@
 				<version>3.1.0</version>
 				<executions>
 					<execution>
-						<id>LazyHamsterGameApp</id>
-						<configuration>
-							<mainClass>de.unistuttgart.iste.sqa.pse.sheet06.homework.exceptions.LazyHamsterGameApp</mainClass>
-						</configuration>
-					</execution>
-					<execution>
-						<id>CagedHamsterGameApp</id>
-						<configuration>
-							<mainClass>de.unistuttgart.iste.sqa.pse.sheet06.homework.exceptions.CagedHamsterGameApp</mainClass>
-						</configuration>
-					</execution>
-					<execution>
 						<id>AmazingPauleHamsterGameApp</id>
 						<configuration>
 							<mainClass>de.unistuttgart.iste.sqa.pse.sheet06.homework.maze.AmazingPauleHamsterGameApp</mainClass>
+						</configuration>
+					</execution>
+					<execution>
+						<id>PainterPauleCrossHamsterGameApp</id>
+						<configuration>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet06.homework.painter.cross.PainterPauleCrossHamsterGameApp</mainClass>
+						</configuration>
+					</execution>
+					<execution>
+						<id>PainterPauleSpiralHamsterGameApp</id>
+						<configuration>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet06.homework.painter.spiral.PainterPauleSpiralHamsterGameApp</mainClass>
+						</configuration>
+					</execution>			
+					<execution>
+						<id>EqualityHamsterGameApp</id>
+						<configuration>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet06.presence.equality.EqualityHamsterGameApp</mainClass>
+						</configuration>
+					</execution>
+					<execution>
+						<id>StairsPauleHamsterGameApp</id>
+						<configuration>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet06.presence.stairs.StairsPauleHamsterGameApp</mainClass>
 						</configuration>
 					</execution>
 				</executions>

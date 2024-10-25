@@ -38,11 +38,17 @@ This sheet contains multiple main classes, depending on the task. Available main
    
   so, for example:
   ```sh
-  mvn clean compile exec:java@CagedHamsterGameApp
-  ```
-  ```sh
-  mvn clean compile exec:java@LazyHamsterGameApp
-  ```
-  ```sh
   mvn clean compile exec:java@AmazingPauleHamsterGameApp
+  ```
+  ```sh
+  mvn clean compile exec:java@PainterPauleCrossHamsterGameApp
+  ```
+  ```sh
+  mvn clean compile exec:java@PainterPauleSpiralHamsterGameApp
+  ```
+  ```sh
+  mvn clean compile exec:java@EqualityHamsterGameApp
+  ```
+  ```sh
+  mvn clean compile exec:java@StairsPauleHamsterGameApp
   ```
