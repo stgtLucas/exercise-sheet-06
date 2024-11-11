@@ -52,7 +52,7 @@
 						<configuration>
 							<mainClass>de.unistuttgart.iste.sqa.pse.sheet06.homework.painter.spiral.PainterPauleSpiralHamsterGameApp</mainClass>
 						</configuration>
-					</execution>			
+					</execution>
 					<execution>
 						<id>EqualityHamsterGameApp</id>
 						<configuration>

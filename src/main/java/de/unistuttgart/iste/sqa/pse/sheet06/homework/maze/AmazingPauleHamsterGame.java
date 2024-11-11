@@ -30,6 +30,6 @@ public class AmazingPauleHamsterGame extends SimpleHamsterGame {
 	}
 
 	void passTheMaze() {
-		// solve the maze here
+		// TODO solve the maze here
 	}
 }
