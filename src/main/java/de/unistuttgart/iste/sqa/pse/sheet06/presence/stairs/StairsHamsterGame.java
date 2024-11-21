@@ -15,7 +15,10 @@ public class StairsHamsterGame extends SimpleHamsterGame {
 	 * Creates a new {@link StairsHamsterGame}.<br>
 	 */
 	public StairsHamsterGame() {
-		this.loadTerritoryFromResourceFile("/territories/TooHighStairsTerritory.ter");
+		// replace "/territories/StairsTerritory.ter" in the following line of code with
+		// "/territories/TooHighStairsTerritory.ter" or
+		// "/territories/TooWideStairsTerritory.ter" to load other territories.
+		this.loadTerritoryFromResourceFile("/territories/StairsTerritory.ter");
 		this.displayInNewGameWindow();
 		game.startGame();
 	}
