@@ -55,7 +55,13 @@ public class StairsHamsterGame extends SimpleHamsterGame {
 	 * TODO Write JavaDoc here
 	 */
 	private void climbStairs() {
-		// TODO implement 4 (c) here
+		// TODO adapt or remove these lines to implement 4 (c)
+		try {
+			movePauleToNextStep();
+		} catch (UnsurmountableStepException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	/**
