@@ -25,10 +25,41 @@ public class PainterPauleCrossHamsterGame extends SimpleHamsterGame {
 		cross();
 	}
 
-	/**
-	 * TODO insert JavaDoc here.
-	 */
-	private void cross() {
-		// TODO implement 2 (a) here.
+	private void turnRight(){
+		for (int i = 0; i <3; i++){
+			paule.turnLeft();
+		}
 	}
+
+	/**
+	 * Makes Paule follow a zigzag path, placing grains at each position.
+	 *
+	 * Preconditions:
+	 * Paule is positioned to start the zigzag movement.
+	 * Path ahead is clear for movement.
+	 *
+	 * Postconditions:
+	 * Grains are placed along the zigzag path.
+	 * Paule ends in a position based on the grid and movement logic.
+	 */
+
+	private void cross() {
+		paule.putGrain();
+		while (paule.frontIsClear()){
+			paule.move();
+			turnRight();
+			paule.move();
+			paule.turnLeft();
+			paule.putGrain();}
+		paule.turnLeft();
+		while (paule.frontIsClear()){
+			paule.move();}
+		paule.turnLeft();
+		paule.putGrain();
+		while (paule.frontIsClear()){
+			paule.move();
+			paule.turnLeft();
+			paule.move();
+			turnRight();
+			paule.putGrain();}}
 }
